@@ -1,15 +1,15 @@
-org_name: nullstone
-name: aws-ses-access
-friendly_name: AWS SES Email Access
-description: Provide access to AWS SES so that applications can send emails
+org_name: Evolve
+name: aws-existing-ses-access
+friendly_name: AWS Existing SES Email Access
+description: Provide access to an existing AWS SES email configuration so that applications can send emails
 category: capability
-subcategory: ingress
+subcategory: datastores
 provider_types:
     - aws
-platform: email
-subplatform: ses
+platform: ses
+subplatform: ""
 type: ""
 appCategories:
     - container
     - serverless
-is_public: true
+is_public: false
