@@ -1,6 +1,6 @@
 org_name: Evolve
 name: aws-existing-ses-access
-friendly_name: AWS Existing SES Email Access
+friendly_name: Existing SES Email Access
 description: Provide access to an existing AWS SES email configuration so that applications can send emails
 category: capability
 subcategory: datastores
